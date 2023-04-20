@@ -103,7 +103,7 @@ def Solver_cols(df, rng, alpha=0.9, rh=20, lim=maxit,runs=Runs):
 
     
     # SA with global swaps - its, updating costs
-    def SAglob_Solver_its(empty,initSol, alpha, rh, maxit): 
+    def SA_Solver_its(empty,initSol, alpha, rh, maxit): 
         N = len(empty)
         poolf  = s.GetNonFixedCellsFlat(empty)
         nonFixed = s.GetNonFixedCells(empty, N, True)
@@ -187,8 +187,8 @@ def Solver_cols(df, rng, alpha=0.9, rh=20, lim=maxit,runs=Runs):
         return sol, total_its, best_its, obj
                     
 
-    df[['SAglob_sols','SAglob_its','SAglob_bestIts','SAglob_obj']] = df.apply(
-        lambda row: multiRun_solverM(row.puzzlesF, row.solnInit, SAglob_Solver_its, runs, alpha, rh, lim),
+    df[['SA_sols','SA_its','SA_bestIts','SA_obj']] = df.apply(
+        lambda row: multiRun_solverM(row.puzzlesF, row.solnInit, SA_Solver_its, runs, alpha, rh, lim),
         axis=1, result_type='expand')
     return df
 
@@ -196,7 +196,7 @@ def Solver_cols(df, rng, alpha=0.9, rh=20, lim=maxit,runs=Runs):
 if __name__ == "__main__":
 
     samplePuzzles = pd.read_pickle(inpath)
-    #samplePuzzles = samplePuzzles.iloc[:4,:]
+    #samplePuzzles = samplePuzzles.iloc[:2,:]
 
 
     child_seeds = SeedSequence(1111).spawn(ncores)
