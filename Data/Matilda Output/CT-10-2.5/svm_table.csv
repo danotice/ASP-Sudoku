@@ -1,0 +1,7 @@
+Row,Avg_Perf_all_instances,Std_Perf_all_instances,Probability_of_good,Avg_Perf_selected_instances,Std_Perf_selected_instances,CV_model_accuracy,CV_model_precision,CV_model_recall,BoxConstraint,KernelScale
+SA_meanCT,2.202,0.492,0.873,2.135,0.486,100,100,100,8.223,0.007
+RR_meanCT,2.085,0.459,0.962,2.08,0.456,96.5,96.7,99.8,15.844,1.585
+RVNS_meanCT,2.679,0.611,0.275,1.166,1.125,77.5,86.8,21.5,0.425,0.668
+SD_meanCT,2.775,0.628,0.197,0.491,0.582,84.5,100,21.3,3.416,0.96
+Oracle,2.058,0.46,1,,,,,,,
+Selector,2.163,0.466,0.976,2.159,0.465,,98.1,52.9,,

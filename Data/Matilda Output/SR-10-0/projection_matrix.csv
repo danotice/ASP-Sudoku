@@ -1,0 +1,3 @@
+Row,counts_naked1,counts_naked2,counts_naked3,counts_min,SAT_ratioRec,SAT_ratioLin,LP_fracInt,LPslack_entropy,GCP_avgPath,GCP_clustcoef
+Z_{1},-0.4077,-0.7421,-0.1832,0.3293,-0.0175,0.2517,-0.1435,0.367,0.6344,-0.5771
+Z_{2},0.0191,0.056,-0.642,-0.2146,1.4859,0.3775,-0.3827,0.4647,0.6901,-0.7036

@@ -1,0 +1,3 @@
+Row,fixedDig_max,counts_naked1,counts_naked2,counts_min,value_mean,value_min,value_max,LP_fracInt,LPslack_CV,GCP_density
+Z_{1},0.3077,0.2311,0.2607,0.0569,-0.7058,-0.1947,-0.1016,0.2663,-0.1601,0.0325
+Z_{2},0.4573,-0.1952,-0.2373,0.2985,-0.0998,-0.3845,0.1163,-0.0254,0.0837,-0.1857
