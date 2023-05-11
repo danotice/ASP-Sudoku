@@ -1,6 +1,6 @@
 # The Algorithm Selection Problem for solving Sudoku with metaheuristics
 
-This repository contains the data and code for the work on this paper to be presented at IEEE 2023 Congress on Evolutionary Computation.
+This repository contains the data and code for the work on this paper [1] to be presented at IEEE 2023 Congress on Evolutionary Computation.
 
 In this work we study the algorithm selection problem and instance space analysis  for solving Sudoku puzzles with metaheuristic algorithms. 
 We formulate Sudoku as a combinatorial optimisation problem and implement four local-search metaheuristics to solve the problem instances. 
@@ -12,3 +12,5 @@ Included are:
 - Python scripts for each of the 4 algorithms used to solve the puzzles.
 - Feature and performance data for 1000 Sudoku puzzles (further described in Data folder).
 - Jupyter notebooks to generate the results discussed in the conference paper.
+
+[1] Notice, D., Kheiri, A., Pavlidis, N.G.: (in press) The algorithm selection problem for solving Sudoku with metaheuristics, in 2023 IEEE Congress on Evolutionary Computation. 2023.
